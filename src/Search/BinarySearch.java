@@ -20,7 +20,8 @@ public class BinarySearch {
 
     public static int binarySearch(int[] arr, int start, int end, int key) {
         int mid = (start + end) / 2;
-        if(key == arr[mid]) return mid;
+        if(start > end) return -1;
+        else if(key == arr[mid]) return mid;
         else if(key > arr[mid]) return binarySearch(arr, mid + 1, end, key);
         else return binarySearch(arr, start, mid, key);
     }
