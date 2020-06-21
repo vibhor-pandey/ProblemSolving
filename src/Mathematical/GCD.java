@@ -1,3 +1,5 @@
+package Mathematical;
+
 import java.util.*;
 import java.lang.*;
 
