@@ -1,4 +1,4 @@
-package Search;
+package SortingAndSearching;
 
 import Utility.Utility;
 

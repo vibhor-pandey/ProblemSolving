@@ -57,6 +57,14 @@ public class ContainerWithMostWater {
      * @param height
      * @return
      */
+    /**
+     * 1) Two Pointers (left = 0 & right = len - 1)
+     * 2) Calculate Area = L X B : ABS(left - right) * MAX(height[left], height[right])
+     * 3) Pick MaxArea
+     * 4) if (height[left] > height[right]) left++
+     * 5) Else right++
+     * 6) Continue 2 -> 5 till left < right
+     */
     public int maxAreaOptimized(int[] height) {
         int maxArea = 0;
         int x = 0;

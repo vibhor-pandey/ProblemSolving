@@ -1,4 +1,4 @@
-package Stacks;
+package Graph;
 
 import java.util.Stack;
 

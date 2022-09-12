@@ -1,6 +1,6 @@
 package Arrays;
 
-import Search.BinarySearch;
+import SortingAndSearching.BinarySearch;
 import Utility.Utility;
 
 import java.util.*;
